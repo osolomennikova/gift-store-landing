@@ -1,5 +1,15 @@
 {
+  "name": "gift-store-landing",
+  "version": "1.0.0",
+  "repository": "git@github.com:osolomennikova/gift-store-landing.git",
+  "author": "osol <sprivetom@inbox.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
   "devDependencies": {
+    "parcel-bundler": "^1.12.4",
     "sass": "^1.24.0"
   }
 }

@@ -1,0 +1,12 @@
+body {
+  font-family: Gilroy;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  height: 116px;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
