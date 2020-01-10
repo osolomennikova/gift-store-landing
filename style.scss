@@ -1,12 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Gilroy;
+  font-family: Roboto;
   color: #000000;
 }
 
-.container {
+header {
   display: flex;
   height: 116px;
+  padding: 0 35px;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
+
+.logo {
+  font-family: Homemade Apple;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39px;
+  color: #231f20;
+  padding: 0 45px;
+}
+
+.btn {
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 0 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  .primary {
+    color: #ffffff;
+    border: solid 1px #f7941e;
+    background-color: #f7941e;
+  }
+  
+  .secondary {
+    color: #f7941e;
+    border: solid 1px #f7941e;
+  }
+
+.disable {
+  color: #f7941e;
+  border: solid 1px #f7941e;
+  height: 44px;
+  line-height: 44px;
+}
+
+li {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-row {
+  display: flex;
+  height: 600px;
+  flex-flow: row nowrap;
+}
+
+.image {
+  width: 50%;
+}
+
+.background1 {
+  background-image: url(images/Background1.svg);
+}
+
+.media-background {
+  background-image: url(images/Media-Background.svg);
+}
+
+.description {
+  width: 50%;
+  padding: 105px 150px;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 69px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 45px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 50px;
+  margin: 0;
+}
+
+
