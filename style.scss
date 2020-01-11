@@ -26,6 +26,8 @@ header {
   padding: 0 45px;
 }
 
+// BUTTONS____________________________
+
 .btn {
   height: 60px;
   width: 200px;
@@ -57,6 +59,22 @@ header {
   line-height: 44px;
 }
 
+.black {
+  display: inline-block;
+  color: #ffffff;
+  border: solid 1px #000000;
+  background-color: #000000;
+  margin-right: 16px;
+}
+
+.black-disable {
+  display: inline-block;
+  color: #000000;
+  border: solid 1px #000000;
+}
+
+//_________________________________________
+
 li {
   display: inline-block;
   font-size: 18px;
@@ -65,7 +83,7 @@ li {
 }
 
 a {
-    display: block;
+  display: block;
   text-decoration: none;
   color: #000000;
 }
@@ -105,12 +123,18 @@ h2 {
   line-height: 45px;
   padding-bottom: 30px;
   margin: 0;
+  font-weight: normal;
+}
+
+.bold-h2 {
+  font-weight: bold;
+  padding: 0;
 }
 
 h3 {
-    font-size: 20px;
-    padding-left: 24px;
-    text-align: start;
+  font-size: 20px;
+  padding-left: 24px;
+  text-align: start;
 }
 
 .subtitle {
@@ -121,9 +145,9 @@ h3 {
 }
 
 .subtitle2 {
-    font-size: 14px;
-    padding: 70px 0 0 24px;
-    text-align: start;
+  font-size: 14px;
+  padding: 70px 0 0 24px;
+  text-align: start;
 }
 
 .occasions-container {
@@ -167,4 +191,12 @@ h3 {
 
 .rectangle3 {
   background-image: url(images/Rectangle3.svg);
+}
+
+.orange-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 240px;
+  background-color: #f7941e;
 }
