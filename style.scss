@@ -156,6 +156,45 @@ h3 {
   padding: 95px 105px;
 }
 
+.blogs-container {
+  height: 1026px;
+  text-align: center;
+  padding: 80px 105px;
+}
+
+.blogs-row {
+  display: flex;
+  height: 370px;
+}
+
+.media-desc {
+  width: 62%;background-color: #000000;
+  color: #ffffff;
+
+}
+
+.media {
+  width: 38%;
+  background-image: url(images/Media.svg);
+}
+
+.ai-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.block {
+  height: 290px;
+  margin: 0 15px;
+  background-color: #fafafa;
+  &:hover {
+    background-color: #ffffff;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  }
+}
+
 .occasions-group {
   display: flex;
   justify-content: center;
