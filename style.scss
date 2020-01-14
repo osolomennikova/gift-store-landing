@@ -26,6 +26,10 @@ header {
   padding: 0 45px;
 }
 
+.footer-logo {
+  color: #f7941e;
+}
+
 // BUTTONS____________________________
 
 .btn {
@@ -75,11 +79,17 @@ header {
 
 //_________________________________________
 
-li {
+.main-nav {
   display: inline-block;
   font-size: 18px;
-  line-height: 22px;
   padding: 15px;
+}
+
+.footer-nav {
+  display: inline-block;
+  font-size: 14px;
+  padding: 40px;
+  font-weight: bold;
 }
 
 a {
@@ -277,4 +287,45 @@ h5 {
 footer {
   height: 410px;
   background-color: #fafafa;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 70%;
+  height: 1px;
+  background-color: #000000;
+}
+
+.social {
+  padding: 60px 0 0 0;
+}
+
+.icons {
+  display: inline-block;
+  height: 39px;
+  width: 39px;
+  margin: 0 13px;
+}
+
+.facebook {
+  background-image: url(images/Facebook.svg);
+}
+
+.twitter {
+  background-image: url(images/Twitter.svg);
+}
+
+.instagram {
+  background-image: url(images/Instagram.svg);
+}
+
+.youtube {
+  background-image: url(images/Youtube.svg);
+}
+
+.pinterest {
+  background-image: url(images/Pinterest.svg);
 }
