@@ -113,12 +113,20 @@ a {
 
 h1 {
   font-size: 56px;
-  line-height: 69px;
   padding-bottom: 30px;
   margin: 0;
+  font-weight: normal;
 }
 
 h2 {
+  font-size: 48px;
+  text-align: start;
+  padding: 5px 0 60px 24px;
+  margin: 0;
+  font-weight: normal;
+}
+
+h3 {
   font-size: 32px;
   line-height: 45px;
   padding-bottom: 30px;
@@ -126,15 +134,22 @@ h2 {
   font-weight: normal;
 }
 
-.bold-h2 {
+h4 {
+  font-size: 24px;
   font-weight: bold;
-  padding: 0;
+  text-align: start;
 }
 
-h3 {
+h5 {
   font-size: 20px;
   padding-left: 24px;
   text-align: start;
+  font-weight: normal;
+}
+
+.bold-h3 {
+  font-weight: bold;
+  padding: 0;
 }
 
 .subtitle {
@@ -142,12 +157,30 @@ h3 {
   line-height: 28px;
   padding-bottom: 50px;
   margin: 0;
+  font-weight: normal;
 }
 
 .subtitle2 {
   font-size: 14px;
   padding: 70px 0 0 24px;
   text-align: start;
+  font-weight: normal;
+}
+
+.block-sub {
+  padding: 10px 0;
+}
+
+.subtitle3 {
+  font-size: 18px;
+  text-align: start;
+  font-weight: normal;
+  padding-top: 30px;
+}
+
+.media-desc-link {
+  color: #ffffff;
+  padding-left: 24px;
 }
 
 .occasions-container {
@@ -170,7 +203,7 @@ h3 {
 .media-desc {
   width: 62%;background-color: #000000;
   color: #ffffff;
-
+  padding:0 52px;
 }
 
 .media {
@@ -181,10 +214,11 @@ h3 {
 .ai-group {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 40px; 
 }
 
 .block {
+  padding: 0 48px;
   height: 290px;
   margin: 0 15px;
   background-color: #fafafa;
@@ -238,4 +272,9 @@ h3 {
   align-items: center;
   height: 240px;
   background-color: #f7941e;
+}
+
+footer {
+  height: 410px;
+  background-color: #fafafa;
 }
